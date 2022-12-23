@@ -1,0 +1,48 @@
+@media screen and (max-width: 767px) {
+    
+    .header,.footer {
+        width: 300px;
+    }
+
+    .box1 {
+        width: 100px;
+    }
+
+    .right {
+        width: 200px;
+    }
+
+    .box2 {
+        width: 75px;
+    }
+
+    .box3,.box4 {
+        width: 125px;
+    }
+
+    .box5 {
+        width: 200px;
+    }
+}
+
+@media screen and (max-width: 479px) {
+
+
+    .header,.box1,.box2,.box3,.box4,.box5,.footer {
+        width: 150px;
+    }
+
+    .right::after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+
+    .right {
+        width: 150px;
+        content: "";
+        display: block;
+        clear: both;
+    }
+
+}
