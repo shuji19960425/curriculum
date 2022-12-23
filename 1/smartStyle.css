@@ -1,1 +1,40 @@
+@media screen and (max-width:479px) {
+    .header {
+        width: 60px;
+        height: 160px;
+        padding: 20px 70px;
     }
+
+    .contentbox-menu {
+        flex-direction: column;
+        justify-content: space-between;
+        width: 40px;
+        height: 140px;
+    }
+
+    .main {
+        flex-direction: column;
+    }
+
+    .left-box {
+        width: 200px;
+        height: 100px;
+    }
+
+    .right-box {
+        padding: 20px 30px;
+        width: 140px;
+    }
+
+    .contentbox-box {
+        width: 130px;
+    }
+
+    .box {
+        width: 130px;
+    }
+    
+    .footer {
+        width: 200px;
+    }
+}
